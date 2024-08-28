@@ -1,7 +1,0 @@
-cd Terminal trolly 
-then run neha@neha-HP-Laptop-15s-fr4xxx:~/TerminalTrolly$ python3 -m http.server
-it open a link there you can type all the commands 
-we use 3 documents 
-index.html
-style.css
-script.js
