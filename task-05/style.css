@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.product-catalog {
+    width: 60%;
+    background-color: #ffffff;
+    border-right: 2px solid #e0e0e0;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.product-item:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-item-price {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.terminal {
+    width: 40%;
+    background-color: #2c2c2c;
+    color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.terminal-window {
+    background-color: #1a1a1a;
+    flex-grow: 1;
+    padding: 15px;
+    overflow-y: auto;
+    border-radius: 8px;
+}
+
+.terminal-output {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.terminal-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.prompt {
+    margin-right: 5px;
+    color: #4CAF50;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: none;
+    color: #f8f8f8;
+    outline: none;
+    flex-grow: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
