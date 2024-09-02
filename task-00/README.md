@@ -1,1 +1,2 @@
-Installed Ubuntu.Didn't face any issues while doing so.
+#UBUNTU INSTALLATION
+Installed Ubuntu, didn't face any issues.
