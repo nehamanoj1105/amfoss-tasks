@@ -1,7 +1,6 @@
 # COMMANDS
 
-list: Display all available products.
-
+list: Display all available products.\n
 details [product_id]: View details of a specific product by its ID.
 add [product_id]: Add a specific product to your cart using its ID.
 remove [product_id]: Remove a specific product from your cart.
