@@ -1,1 +1,3 @@
-[DEMO](hero_dex_video.mp4)
+# DEMO VIDEO
+
+[Demo](hero_dex_video.mp4)
