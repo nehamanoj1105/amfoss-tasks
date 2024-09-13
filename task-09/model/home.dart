@@ -24,7 +24,7 @@ class _HomeState extends State<Home> {
     setState(() {
       _loading = true;
     });
-    var url = 'https://akabab.github.io/superhero-api/api/all.json';
+    var url = 'asset';
     var res = await http.get(Uri.parse(url));
     List decodedJson = jsonDecode(res.body);
 
