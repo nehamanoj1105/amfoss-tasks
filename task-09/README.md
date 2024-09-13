@@ -1,1 +1,1 @@
-[DEMO](videos/hero_dex_video.webm)
+[DEMO](hero_dex_video.mp4)
