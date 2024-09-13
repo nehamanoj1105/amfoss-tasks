@@ -1,3 +1,6 @@
+# Directory Structure for PySimpleGUI
+```
+
 /PySimpleGUI
 │
 ├── DemoPrograms/
@@ -34,3 +37,4 @@
 ├── README.md
 │
 └── setup.py
+```
