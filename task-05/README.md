@@ -1,4 +1,4 @@
-# COMMANDS
+# THESE ARE THE COMMANDS
 
 list: Display all available products.
 
@@ -17,3 +17,5 @@ clear: Clear the terminal screen.
 search [product_name]: Search for a product by name.
 
 sort [price/name]: Sort the products by price or name.
+
+### This task helped me solidify my understamding of HTML,CSS and Javascript. It was fun fixing the glitchy code through trial and error, i learnt quite a few things about web development through this task.
